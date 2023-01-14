@@ -57,6 +57,26 @@ body{
     top: 30px;
 
 }
+/* partners styles  */
+.partners{
+    width: 920px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 70px;
+    border: 0.1px solid rgba(211, 211, 211, 0.164);
+    border-right: none;
+    border-left: #fff;    
+    padding: 20px 0;
+}
+.partners img{
+    width: 70px;
+}
+
+#partner-alibaba-logo{
+width: 40px;
+}
 
 /*--------------------------------
      media query breakpoints  
@@ -101,7 +121,18 @@ body{
         margin-top: 16px;
     }
     .partners{
-        margin: 50px 0;
+        width: 257px;
+        margin: 50px auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        border: none;
+        padding: 0;
+    }
+    .partners img{
+        width: 50px;
     }
 
     
